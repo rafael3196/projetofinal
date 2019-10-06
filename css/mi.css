@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+#pesquisafsm-caixa {
+ padding:6px;
+ width:170px;
+ font-style:italic;
+ border:solid 1px;
+ border-radius:5px;
+ border:none;
+ width:220px;
+ font-size:16px;
+}
+#pesquisafsm-botao {
+border: 1px solid #222;
+color: #eee; 
+background: no-repeat left #999;
+margin-left: -3px;
+color:#fff;
+font: 'trebuchet ms', trebuchet;
+padding:8px 8px 8px 8px;
+border:0 none;
+font-weight:bold;
+border-top-right-radius: 7px;
+border-bottom-right-radius: 7px;
+width:127px;
+}
+#pesquisafsm-botao:hover {
+cursor: pointer;
+background: no-repeat left red;
+
+}
+
+input[type=text] {
+    border:solid 1px;
+    border-radius:20px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    height:25px;
+    width:220px;
+}
+fieldset{
+width:30px;
+}
+ #ccep{
+  width:246px;
+  margin-top:7px;
+ 
+ }
+ #cende{
+ width:246px;
+ }
+#cnome{
+ width:353px;
+ margin-top:7px;
+}
+#cnum{
+   width:101px;
+    margin-top:7px;
+}
+#cuf{
+   width:59px;
+   margin-top:7px;
+   }
+   
+#ccomple{
+   width:353px;
+    margin-top:7px;
+   }
+   
+#cpref{
+width:353px;
+ margin-top:7px;
+}
+
+#cbairro{
+width:143px;
+ margin-top:7px;
+}
+
+#ccidade{
+width:143px;
+ margin-top:7px;
+ }
+ 
+ 
+#pesqcep,#climpa, #cregistra{
+display:block;
+	border:none;
+	width:100px;
+	height:30px;
+	margin-top:5px;
+	cursor:pointer;
+	font:400 18px Oswald;
+	color:#999;
+	border-radius:5px;
+}
+
+  #pesqcep:hover ,#climpa:hover, #cregistra:hover{
+
+	background:red;
+	color:#fff;
+
+}
+ 
+
+#climpa{
+margin-left:-3px;
+margin-top:-30px;
+margin-left:120;
+}
+
+#pesqcep{
+width:100px;
+margin-top:-25px;
+margin-left:250;
+height:29px;
+}

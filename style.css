@@ -1,0 +1,38 @@
+@charset "UTF-8";
+* { margin: 0; padding: 0; }
+body { background: #f1f1f1;  position:center;}
+
+#nav { margin: 15px; padding: 0px; float: left; margin-top: 100px; }
+#nav li { list-style: none; background: #fff; width: 250px; border-bottom: 1px solid #666; }
+#nav li a { display: block; padding: 8px; border-left: 4px solid #444; text-decoration: none; box-shadow: 2px 2px 5px #ccc; color: #555; }
+#nav li a:hover { border-left: 4px solid #069; background: #f8f8f8; }
+#nav li ul { display: none; }
+#nav li:hover ul { display: block; }
+#nav li:hover ul li { background: #333; }
+#nav li:hover ul li a { color: #ccc; }
+#nav li:hover ul li a:hover { background: #222; border-left: 4px solid #900; }
+#cor {background: white;}
+#valor { position:center; top:350px; right:0px; bottom: 0px; left:850px; margin: 0px; padding:0px;}
+
+/* Formulário de Busca de Cliente */
+#busca{
+	 position:relative; top:-450px; 
+	 right:0px; bottom: 0px;
+	 left:910px; margin: 0px;
+	 padding:0px;
+}
+fieldset{width:800px;}
+
+/* Formulário de Valores */
+#fundo {position: relative; top: -100px; left: 910px;}
+#um{position: relative; top: 50px; left: 60px;}
+#dois{position: relative; top: 100px; left: -175px; right:60px;}
+#tres{position: relative; top: 150px; left: -420px; right:60px;}
+#quatro{position: relative; top: 200px; left: -638px; right:60px;}
+#cinco{position: relative; top: 250px; left: -885px; right:60px;}
+#seis{position: relative; top: 300px; left: -1110px; right:60px;}
+
+/* */
+
+
+

@@ -1,0 +1,31 @@
+
+
+ }
+ fieldset{
+ height:auto;
+ overflow:hidden;
+width:400px;
+border:1px solid #ccc;
+}
+
+#fieldset1{
+width:100px;
+margin:0;
+border:2px solid #ccc;
+}
+
+	input[type=text] ,[type=date]{
+    border:solid 1px;
+    border-radius:20px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    height:25px;
+    width:220px;
+}
+
+
+ #label2{
+ width:10000px;
+ margin-left:180px;
+ }

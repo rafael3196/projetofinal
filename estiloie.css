@@ -1,0 +1,30 @@
+@charset "UTF-8";
+*{
+
+padding: 1px;
+
+}
+#form
+{
+    position:relative;
+    left:37%;
+    top:29%;
+    width:320px;
+    height:270px;
+}
+ #form
+{
+    position:absolute;
+    display:block;   
+}
+fieldset
+{
+    width:300px;
+    height:250px;
+}
+legend
+{
+    font-style:bold;
+    font-family: “Segoe UI”,”Arial”,”Times New Roman”;
+}
+

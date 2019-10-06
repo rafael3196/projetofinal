@@ -1,0 +1,4 @@
+$("div#tabela").scroll(function () {
+	$('div#tabela #cabecalhoHorizontal, #versus').css('top', $(this).scrollTop());
+	$('div#tabela #cabecalhoVertical, #versus').css('left', $(this).scrollTop());
+});

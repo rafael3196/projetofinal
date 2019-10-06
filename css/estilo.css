@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+*{
+	margin:0;
+	padding:0;
+	outline:none;
+	list-style:none:
+	}
+h1{
+	
+	margin:340px;
+	
+}
+
+#login{
+	Width:300px;
+	margin:0 auto;
+	position:relative;
+	top:150px;
+	border:1px solid #f1f1f1;
+	padding:15px;	
+}
+
+#login  .acomodar form label{
+	display:block;	
+	padding:5px;
+}
+.logo{
+	width:183px;
+	margin:0 auto;
+	
+}
+.acomodar{
+	margin:0 auto;
+	width:250px;
+}
+.txt{
+	border:none;
+	height:40px;
+	width:250px;
+	border:thin solid #f1f1f1;
+	background-color:#FFFAF0;
+}
+.txt:focus{
+	border:thin solid red;
+	box-shadow: 0 2px 10px red; 
+	-webkit-box-shadow: 0 2px 10px red; 
+	-moz-box-shadow: 0 2px 10px red; 
+	
+}
+.sb{
+	display:block;
+	border:none;
+	width:250px;
+	height:40px;
+	margin-top:10px;
+	cursor:pointer;
+	font:400 18px Oswald;
+	color:#999
+	}
+.sb:hover{
+	background:red;
+	color:#fff;
+}
+
+/*Classes de herança*/
+.bradius{
+	border-radius: 6px;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+}
+
+.fleft{
+	float:left;
+}
+.fright{
+	float:right;	
+}
+/*Multiplos Estilos */
+.txt,.txt:focus,.sb,.sb:hover{
+	transition:all 0.5s liner;
+	-webkit-transition:all 0.5s linear;
+	-moz-transition:all 0.5s linear;
+}

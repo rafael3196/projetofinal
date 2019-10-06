@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+*{
+	margin:10px;
+	padding:0px;
+	outline:none;
+	list-style:none:
+	}
+	
+	input[type=text] ,[type=date],[type=password]{
+    border:solid 1px;
+    border-radius:20px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    height:25px;
+    width:220px;
+}
+#pas{
+	border:solid 1px;
+    border-radius:20px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    height:25px;
+    width:220px;
+}
+
+
+
+ #label{
+ font-style:italic; 
+ font-size:20px;
+ }
+  
+ #fieldset{
+ height:auto;
+ overflow:hidden;
+width:900px;
+border:1px solid #ccc;
+
+}
+
+#fieldset1{
+width:400px;
+margin:0;
+border:2px solid #ccc;
+margin-left:;
+margin-top:30px;
+}
+
+#fieldset2{
+width:110px;
+margin:0;
+border:2px solid #ccc;
+margin-left:268px;
+margin-top:-70px;
+}
+
+#fieldset3{
+width:110px;
+margin:0;
+border:2px solid #ccc;
+margin-left:508px;
+margin-top:-389px;
+}
+
+#fieldset4{
+width:110px;
+margin:0;
+border:2px solid #ccc;
+margin-left:0px;
+margin-top:150px;
+
+}
+
+ #label2{
+ 
+ margin-left:170px;
+ }
+ 
+  #label7{
+ 
+ margin-left:190px;
+ }
+ 
+  #cemail{
+ 
+ width:466px;
+ }
