@@ -1,19 +1,56 @@
-#divBusca{
-    background-color:#2F4F4F;
-    border:solid 1px;
-    border-radius:15px;
-    width:300px;
+body {
+    background-image: url(../imagens/10.jpg);
+    background-size: cover;
+    margin: 0;
+}
+
+
+/* --------------- Class --------------- */
+/* Login Page */
+.login-form {
+    width: 183;
+    margin: auto;
+    border-radius: 6px;
+    font:400 18px Oswald;
+    width:250px;
+    height:40px;
+    border: none;
+}
+
+.login-form-text:focus {
+    border:thin solid red;
+	box-shadow: 0 2px 10px red; 
+}
+
+/* --------------- Id --------------- */
+/* Login Page */
+#login-box {
+    background-color: rgba(128, 74, 24, 0.45);
+    width: 500px;
+    height: 500px;
+    padding: 5px;
+    margin: 0px auto;
+    margin-top: 50px;
+    border: none;
+    position: relative;
+}
+
+#login-logo-image {
+    width: 183px;
+    margin: 0px auto;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+
+#login-bt {
+    border: none;
+    cursor: pointer;
+    display: block;
 }
  
-#txtBusca{
-    float:left;
-    background-color:transparent;
-    padding-left:5px;
-    font-style:italic;
-    font-size:18px;
-    border:none;
-    height:32px;
-    width:260px;
+#login-bt:hover {
+    background:red;
+	color:#fff;
 }
 
 
