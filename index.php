@@ -1,27 +1,3 @@
-<?php
-	session_start();
-	if(isset($_POST['btlogin'])){
-		$login = $_POST['tlogin'];
-		$senha = $_POST['tsenha'];
-		$sql = "select * from funcionario where f_status=1 and login='$login' and senha='$senha'";
-		$resultado = mysql_query($sql, $conexao);
-		$registros = mysql_num_rows($resultado);
-		if($registros==0) {
-			echo "<script>
-				alert('Login ou senha inválidos!')
-				location.href='index.php';
-			  </script>";
-		} else {
-			$dados = mysql_fetch_assoc($resultado);
-			$_SESSION['logado'] = $dados['idfuncionario'];
-			$_SESSION['tipo'] = $dados['tipo'];
-			echo "<script>
-					location.href='pagina.php';
-				  </script>";
-		}
-	}
-?>
-
 <!DOCTYPE >
 <html>
 	<head>
